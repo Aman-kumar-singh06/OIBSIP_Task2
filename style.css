@@ -1,0 +1,363 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    /* font-family: 'Poppins', sans-serif; */
+    /* font-family: 'Alice', serif; */
+}
+body{
+    background-color: #2E424d;
+}
+html{
+    scroll-behavior: smooth;
+  }
+nav{
+    display: flex;
+    gap: 500px;
+    align-items: center;
+    background-color: #314753;
+    box-shadow: 0px 0px 0px 2px rgb(0, 0, 0);
+}
+nav div ul {
+    list-style-type: none;
+    display: flex;
+}
+nav ul li{
+    padding: 20px;
+    margin-left: 40px;
+}
+nav ul li a{
+    color: white;
+}
+.logo img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+nav ul li:hover{
+    transform: translate(0px,-3px);
+    font-weight: 600;
+    transition: 0.8s;
+
+}
+nav ul li a:hover{
+    color: #98dad9;
+    transition: 0.8s;
+}
+/* main section */
+main{
+    display: flex;
+    margin-top: 90px;
+}
+.mainleft{
+    width: 60%;
+    color: rgb(245, 222, 179);
+    margin-left: 150px;
+    margin-top: 100px;
+}
+.mainleft h2 span{
+    font-size: 30px;
+}
+.mainleft b{
+    font-size: 32px;
+}
+.greet{
+    margin-top: 15px;
+}
+
+.mainleft button a{
+    color: rgb(245, 222, 179);
+}
+.mainleft button{
+    padding: .5rem 2rem;
+    border-radius: 20px;
+    background-color: #2E424d;
+    margin-left: 70px;
+    margin-top: 40px;
+    filter: drop-shadow(5px 5px 2px #000)
+}
+.mainleft button:hover{
+    transform: translate(-0.5px,-3px);
+    transition: 0.7s;
+    background-color: #5b8291;
+}
+.mainleft button a:hover{
+    color: rgb(0, 0, 0);
+}
+
+.rightmain{
+    margin-right: 150px;
+}
+.rightmain img{
+    height: 350px;
+    border-radius: 20px;
+    filter: drop-shadow( 8px 10px 2px)
+}
+.rightmain img:hover{
+    transform: translate(-5px,-5px);
+    transition: 1.5s;
+}
+
+/* About section */
+
+#about{
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 40px;
+}
+#about div{
+    display: flex;
+    gap: 25px;
+}
+#about legend{
+    font-size: 40px;
+}
+#about div img{
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+#about legend{
+    display: block;
+    padding-left: 2px;
+    color: rgb(245, 222, 179);
+    text-decoration: 1px underline;
+    margin-left: 10px;
+}
+#about fieldset{
+    border: 2px solid black;
+    border-radius: 15px;
+}
+#about div p{
+    color: rgb(245, 222, 179);
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+/* project section */
+#project{
+    margin-top: 100px;
+}
+#project h1{
+    font-size: 40px;
+    color: rgb(245, 222, 179);
+    text-decoration: 1px underline;
+}
+#project .row{
+    display: flex;
+    margin-left: 280px;
+    gap: 150px;
+    margin-top: 50px;
+}
+#project .row .pic1{
+    height: 140px;
+    width: 100px;
+    border-radius: 15px;
+    margin-top: 5px;
+}
+#project .row .pic2{
+    height: 150px;
+    width: 150px;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 300px;
+    border:1px solid rgb(0, 0, 0) ;
+    margin: 10px;
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 15px;
+    background: linear-gradient(to top, #5b8291 50%, rgb(246, 231, 203) 50%);
+    background-size: 100% 200%;
+    transition: all 1.2s;
+  }
+  .box:hover{
+    background-position: left bottom;
+    color: rgb(255, 255, 255);
+    border: none;
+    box-shadow: 0 0 10px #5b8291;
+    transform: translate(0px,-8px);
+  }
+ 
+  .proj{
+    font-size: 25px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+  }
+  .proj a{
+    color: black;
+    text-decoration: none;
+  }
+  .para{
+    font-size: 15px;
+  }
+  .para span{
+    font-weight:900 ;
+  }
+
+/* My Skills */
+#skills{
+    margin-top: 100px;
+  }
+  #skills h1{
+    color: rgb(245, 222, 179);
+    text-decoration: 1px underline;
+    font-size: 35px;
+  }
+  #skills .type1 {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 250px;
+    gap: 200px;
+  }
+  #skills h2{
+    color: rgb(245, 222, 179);
+    margin-top: 5px;
+  }
+  #skills .sl2{
+    border-radius: 15px;
+    height: 100px;
+    width: 100px;
+    filter: drop-shadow( 5px 7px 2px)
+  }
+  #skills .sl1{
+    filter: drop-shadow( 4px 6px 2px)
+  }
+  #skills .type2 {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 430px;
+    gap: 200px;
+  }
+  #skills img:hover{
+    transform: translate(-0.5px,-3px);
+    transition: all .5s;
+  }
+
+ /* Resume */
+#resume{
+    margin-top: 100px;
+   
+ }
+ #resume h1{
+    font-size: 35px;
+    color: rgb(245, 222, 179);
+    text-decoration: 1px underline;
+ }
+ #resume p{
+    margin-top: 30px;
+    font-size: 25px;
+    color: #98dad9;
+ }
+ #resume button a{
+    color: rgb(245, 222, 179);
+ }
+ #resume button{
+    padding: .5rem 2rem;
+    border-radius: 20px;
+    background-color: #2E424d;
+    margin-left: 70px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    filter: drop-shadow(5px 5px 2px #000)
+ }
+ #resume button:hover{
+    transform: translate(-0.5px,-3px);
+    transition: 0.7s;
+    background-color: #5b8291;
+ }
+ #resume button a:hover{
+    color: rgb(0, 0, 0);
+ }
+ #resume button{
+    margin-right: 80px;
+}
+
+ /* footer */
+ /* box-shadow: 0px 0px 0px 2px rgb(0, 0, 0); */
+ #contact{
+    margin-top: 10px;
+    background-color: #314753;
+    display:flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    
+ }
+ #contact fieldset{
+    margin-top: 50px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    border-radius: 15px;
+   
+ }
+ #contact form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 20px 0px;
+ }
+ .input{
+    padding: 12px;
+    margin: 5px;
+    width: 50%;
+    border: none;
+    outline: none;
+    margin-left: 20%;
+    border-radius: 15px;
+    background-color: #325060;
+    filter: drop-shadow(3px 3px 2px #000)
+  }
+  #msg{
+    width: 50%;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    margin-left: 20%;
+    background-color: #325060;
+    filter: drop-shadow(5px 5px 2px #000)
+  }
+  #send{
+    width: 10px;
+    padding: 5px;
+    border: 5px silod black;
+    outline: none;
+    padding: 1rem 4rem;
+    font-size: 18px;
+    color: wheat;
+    background-color: #2E424d;
+    margin-left: 35%;
+    margin-top: 5px;
+    transition: all .8sec;
+    text-align: center;
+    border-radius: 15px;
+    filter: drop-shadow(4px 4px 2px #000)
+  }
+  #contact legend{
+    display: block;
+    padding-left: 2px;
+    color: rgb(245, 222, 179);
+    text-decoration: 1px underline;
+    margin-left: 10px;
+    font-size: 30px;
+ }
+footer p{
+    margin-left: 550px;
+    font-size: 25px;
+    color: wheat;
+} 
+
